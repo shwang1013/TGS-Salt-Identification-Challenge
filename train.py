@@ -35,7 +35,7 @@ Y_train = np.zeros((i, im_height, im_width, 1), dtype=np.bool)
 print('Getting and resizing train images and masks ... ')
 i = 0
 for n, id_ in tqdm(enumerate(train_ids), total=len(train_ids)):
-    path = path_train
+    path = path_train 
     # Remove black data
     statinfo = os.stat(path + '/Auge_NoColor_image/' + id_)
     # delete the black image
