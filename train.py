@@ -11,7 +11,7 @@ from keras import regularizers
 from keras.layers.normalization import BatchNormalization
 from keras.preprocessing.image import img_to_array, load_img,ImageDataGenerator
 from skimage.io import imread, imshow, imread_collection, concatenate_images
-
+ 
 # Set some parameters
 im_width = 128
 im_height = 128
